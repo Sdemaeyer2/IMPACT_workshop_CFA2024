@@ -1,0 +1,149 @@
+---
+title: "CFA in R (IMP>ACT meeting - Vechta - 2024)"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    theme: 
+        version: 4
+        bg: "#F4F4F4"
+        fg: "#515D64"
+        primary: "#A7CE45"
+        navbar-bg: "#F9F9F9"
+        link-color: "#343A40"
+        font-size-base: "1.05rem"
+    vertical_layout: scroll
+---
+
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+# Intro {.sidebar}
+
+This site bundles all the materials used for the workshop [CFA in R]{style="color: ##343A40"}. 
+
+---
+
+Instructors: 
+
+
+ - <a href="https://sdemaeyer.quarto.pub/" target="blank">Sven De Maeyer</a> 
+ - <a href="https://www.uantwerpen.be/nl/personeel/tine-vandaal/" target="blank">Roos Van Gasse</a>
+ 
+---
+
+All materials for the course can be downloaded via <a href="https://github.com/Sdemaeyer2/R_workshop_ICO2024" target="_blank">the github page </a>. 
+
+---
+
+Questions or feedback, do not hesitate to contact us:
+
+sven.demaeyer@uantwerpen.be
+roos.vangasse@uantwerpen.be
+
+
+---
+
+# Quick Overview
+
+## Column 1
+
+### Outline
+
+The IMP>ACT project implies that we will validate the instruments developed during the project. One of the types of analyses we will rely on is 'Confirmatory Factor Analysis' (CFA). Different statistical software packages can handle this type of analyses, but most of them are not for free. A powerful tool in data analysis world is `R`, an open-source statistical software package. The last decade or so, `R`has become more and more popular among researchers. It has many advantages, like the fact that it is fully open source and therefore a great way to conduct open science.
+
+In this workshop we will lay the foundation for a unified way of doing analyses, making use of `R`within the IMP>ACT project. Given the limited amount of time, we will very briefly introduce how to generate a good reproducible workflow in `R` and we will delve into the use of the package `lavaan`for the specific CFA analyses. 
+
+This website will contain links to the slides, the data used in the workshop, some external resources, and potential other sources of relevant information. 
+
+
+## Column 2
+
+### Slides
+
+If you like to have all the slides as a pdf you can download them here as zip-file: 
+
+<a href="Presentations/All_Slides_As_pdf.zip" target="blank">Slides As Pdf</a>
+
+# Preparation
+
+## Column 1
+
+### How to prepare?
+
+To prepare yourself for the workshop it would be great that you have installed `R`and `RStudio`on you personal computer. 
+
+Important to know is that `R` has to be installed first and that `RStudio` is user-interface that facilitates a proper workflow to work with `R`. So, `R` is the statistical programming language used and `RStudio` will be the interface where we will apply `R`. 
+
+To install `R` you can go to the website of CRAN where you can download the most recent version of `R` for you machine: <a href="https://cran.r-project.org/" target="blank">CRAN website</a>
+
+To install `RStudio` you can go to the website of POSIT where you can download the most recent version of `R` for you machine: <a href="https://posit.co/download/rstudio-desktop/" target="blank">posit website</a>
+
+# Workshop materials
+
+## Column 1
+
+### Part 1
+
+In the first part, we will introduce the basics of `R` language and the `RStudio` environment. 
+Following topics will be discussed:
+
+- RStudio interface 
+- The basics in R 
+- Using a Quarto document
+- Installing and using packages
+- Importing data 
+
+### Part 2
+
+The second part of this workshop taps into the package `lavaan`to conduct the CFA's.
+
+These will be topics covered:
+
+- The lavaan syntax 
+- Estimating a model 
+- Evaluating the model
+- Comparing models
+- Modification indices
+
+## Column 2
+
+### Dataset
+
+### Quarto document
+
+### Slides
+
+The htlm-version of the slides for this first part can be found <a href="Presentations/Part1/Slides_part1.html" target="blank">here</a>
+
+
+# Links and resources 
+
+## Column 1
+
+### More on R
+
+### More on Lavaan
+
+### More on Quarto
+
+Quarto can be used for much more than just writing single documents. More info on all possibilities of Quarto can be found here:
+<https://quarto.org/docs/guide/>
+
+If you create a file (or a website) that you want to publish on internet there are many ways to do so. More information here:
+<https://quarto.org/docs/publishing/>
+
+You can even create a personal (academic) blog website with Quarto. Great tutorial can be found here:
+<https://www.marvinschmitt.com/blog/website-tutorial-quarto/>
+
+## Column 2
+
+### Example application
+
+Quarto allows you to create nice documents like *lab-notes* or *walk-throughs*. For instance, I have created this document as an appendix of a paper. This is made with Quarto and is an html page that lives on the internet:
+
+<a href="https://majestic-pixie-28398c.netlify.app/" target="blank"> Walk-through example 1 </a>
+
+<a href="https://gifted-nightingale-d45b7e.netlify.app/#content" target="blank"> Walk-through example 2 </a>
