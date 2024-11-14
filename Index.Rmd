@@ -123,9 +123,11 @@ The htlm-version of the slides for this first part can be found <a href="Present
 
 ## Column 1
 
-### More on R
-
 ### More on Lavaan
+
+`lavaan` is developed at the University of Ghent by Yves Rosseel. His ambition was to build a package in `R` that mimics the analyses possible in MPlus. Given that the development of such an open source package relies heavily on particpation of contributors, `lavaan` is sometimes a bit behind with the more recent advanced analyses possible in MPlus. Nevertheless, `lavaan` has grown a lot as package and meets all the standards to conduct Structural Equation Modeling. 
+
+There is a great online tutorial build by the developer himself to explain the use of `lavaan`. You can find it here: <https://lavaan.ugent.be/>.
 
 ### More on Quarto
 
@@ -140,7 +142,11 @@ You can even create a personal (academic) blog website with Quarto. Great tutori
 
 ## Column 2
 
-### Example application
+### Example publication using lavaan
+
+In 2024 Michiel and some of us have published a study where we tested the measurement invariance of the ACiSD-Q. For this study we also used `lavaan`. The study can be found here: <https://doi.org/10.1080/13504622.2024.2382967>. The code for the analyses is also openly available at OSF: <https://osf.io/xq9wc/?view_only=69536ba32fcc40cba3e9573f332a5c1b>
+
+### Example application of Quarto
 
 Quarto allows you to create nice documents like *lab-notes* or *walk-throughs*. For instance, I have created this document as an appendix of a paper. This is made with Quarto and is an html page that lives on the internet:
 
