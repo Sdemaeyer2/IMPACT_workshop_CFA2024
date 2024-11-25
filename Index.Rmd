@@ -55,14 +55,6 @@ In this workshop we will lay the foundation for a unified way of doing analyses,
 This website will contain links to the slides, the data used in the workshop, some external resources, and potential other sources of relevant information. 
 
 
-## Column 2
-
-### Slides
-
-If you like to have all the slides as a pdf you can download them here as zip-file: 
-
-<a href="Presentations/All_Slides_As_pdf.zip" target="blank">Slides As Pdf</a>
-
 # Preparation
 
 ## Column 1
@@ -134,6 +126,7 @@ knitr::include_graphics("images/Githubscreen.png")
 ### Dataset
 
 The data used in the example project comes from the KAU-team (many thanks!) and contains survey data on Action Competence.
+
 
 
 # Links and resources 
