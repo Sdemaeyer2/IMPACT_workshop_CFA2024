@@ -97,6 +97,11 @@ These will be topics covered:
 - Comparing models
 - Measurement Invariance Analysis
 
+### Dataset
+
+The data used in the example project comes from the KAU-team (many thanks!) and contains survey data on Action Competence.
+
+
 ## Column 2
 
 ### Project template
@@ -121,13 +126,6 @@ If you open this link in your web browser, you can download the whole folder to 
 ```{r, echo=FALSE, out.width="50%", fig.cap="Github page for the project template."}
 knitr::include_graphics("images/Githubscreen.png")
 ```
-
-
-### Dataset
-
-The data used in the example project comes from the KAU-team (many thanks!) and contains survey data on Action Competence.
-
-
 
 # Links and resources 
 
