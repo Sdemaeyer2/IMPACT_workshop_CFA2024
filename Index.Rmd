@@ -98,25 +98,46 @@ Following topics will be discussed:
 
 ### Part 2
 
-The second part of this workshop taps into the package `lavaan`to conduct the CFA's.
+The second part taps into the package `lavaan`to conduct the CFA's.
 
 These will be topics covered:
 
-- The lavaan syntax 
+- The `lavaan` syntax 
 - Estimating a model 
 - Evaluating the model
-- Comparing models
 - Modification indices
+- Comparing models
+- Measurement Invariance Analysis
 
 ## Column 2
 
+### Project template
+
+For the workshop we developed a template project. I advice strongly to make use of Projects in RStudio for each of you specific studies. For instance, if you want to conduct a CFA on a specific dataset, create a separate project for this endeavor. This way, all the file from a specific study are bundled together without the clutter of other files. 
+
+A project in RStudio has a dedicated folder on your computer. Within that folder I typically create dedicated sub-folders. This folder structure is the folder structure in the template project:
+
+- `analysis` = a folder containing files that document specific analyses (e.g., a Quarto document with the lab notes for a certain study)
+- `data`= a folder with the raw data files (I tend to store only the raw data there, so that I always have the source material stored)
+- `doc`= a folder with some background documentation on the study (e.g., the Questionnaires or other instruments, a description of the design, ...) 
+- `output` = a folder with specific output files (e.g., graphics/plots, derived datasets, feedback for participants, ...)
+- `src` = a folder with some specific resources necessary to understand the study (e.g., some tutorial used, ...)
+
+The template project for this workshop (and for IMP>ACT) is stored on Github. It can be accessed through this link:
+https://github.com/Sdemaeyer2/IMPACT_Project_template
+
+If you open this link in your web browser, you can download the whole folder to your local computer by clicking on the "Code" button. That gives you the opportunity to save it as a Zip file. 
+
+### Github 
+
+```{r, echo=FALSE, out.width="50%", fig.cap="Github page for the project template."}
+knitr::include_graphics("images/Githubscreen.png")
+```
+
+
 ### Dataset
 
-### Quarto document
-
-### Slides
-
-The htlm-version of the slides for this first part can be found <a href="Presentations/Part1/Slides_part1.html" target="blank">here</a>
+The data used in the example project comes from the KAU-team (many thanks!) and contains survey data on Action Competence.
 
 
 # Links and resources 
