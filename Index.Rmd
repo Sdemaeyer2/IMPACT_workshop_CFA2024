@@ -148,6 +148,18 @@ If you create a file (or a website) that you want to publish on internet there a
 You can even create a personal (academic) blog website with Quarto. Great tutorial can be found here:
 <https://www.marvinschmitt.com/blog/website-tutorial-quarto/>
 
+### Resources on Visualisations in R
+
+`R` has some great packages to create data visualisations. The most used (and the one I gravitate to) is called `ggplot2` ([https://ggplot2.tidyverse.org/](https://ggplot2.tidyverse.org/)) (also part of the `tidyverse` package).
+
+The following website contains all the material of a 3-day workshop I gave on `R` and `RStudio`: [https://icoworkshop-rstudio-2024.netlify.app/#quick-overview](https://icoworkshop-rstudio-2024.netlify.app/#quick-overview). Part 4 contains a slideshow on visualisations in `R`. Of course, the other parts are relevant as well. For instance, part 3 deals with data-wrangling using `dplyr` (another package within the `tidyverse`).
+
+Another good resource is of course YouTube. For instance, [https://www.youtube.com/playlist?list=PLBnFxG6owe1HRvUL6A5QNF_8ujP8NdLMc](https://www.youtube.com/playlist?list=PLBnFxG6owe1HRvUL6A5QNF_8ujP8NdLMc)
+
+
+
+
+
 ## Column 2
 
 ### Example publication using lavaan
